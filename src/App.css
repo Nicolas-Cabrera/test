@@ -15,16 +15,11 @@ body {
 
 .form-section {
 	transition: max-height ease 1s;
-	max-height: 48px;
 	overflow: hidden;
 	height: 200px;
 	background-color: #dedede;
 	border-radius: 5px;
 	margin: 8px 4px;
-}
-
-.form-section:active {
-	max-height: 200px;
 }
 
 .step-section {
@@ -47,7 +42,20 @@ body {
 	left: 285px;
 }
 
+button:focus {
+	outline: none;
+}
+
 button {
+	position: absolute;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	height: 50px;
+	width: 700px;
+}
+
+.button {
 	position: relative;
 	left: 280px;
 	text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.6);
