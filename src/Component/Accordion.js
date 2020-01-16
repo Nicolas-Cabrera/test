@@ -30,7 +30,6 @@ export default function Accordion(props) {
 							<label>{props.thirdlabel}</label>
 							<input type='text'></input>
 						</div>
-						<button>Next </button>
 					</form>
 				</div>
 			</div>
